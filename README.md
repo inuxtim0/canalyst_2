@@ -24,6 +24,8 @@
 
 ## 运行
 
+1. 下载项目
+
 ```sh
 git clone https://github.com/inuxtim0/canalyst_2.git
 cd canalyst_2
@@ -35,16 +37,16 @@ cd canalyst_2
 cd 3_解包功能
 ```
 
-
 3. 安装依赖
+
 ```sh
 # （选择I: 如熟悉python）（python版本3.8），备注：使用官方pip源或者阿里pip源,临时换源方法：python -m pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/
 python -m pip install -r requirements.txt
 
 # （选择II: 如不熟悉python）使用anaconda，步骤也是类似的：
-conda create -n canalyst_2 python=3.8    # 创建anaconda环境
-conda activate canalyst_2                 # 激活anaconda环境
-python -m pip install -r requirements.txt # 这个步骤和pip安装一样的步骤
+conda create -n canalyst_2 python=3.8    # 创建 anaconda 环境
+conda activate canalyst_2                 # 激活 anaconda 环境
+python -m pip install -r requirements.txt # 这个步骤和 pip 安装一样的步骤
 ```
 
 4. 执行脚本
@@ -52,6 +54,9 @@ python -m pip install -r requirements.txt # 这个步骤和pip安装一样的步
 ``` sh
 python 8_JSON解包.py
 ```
+
+5. 停止执行
+    `Ctrl + C`
 
 ## 闲谈
 
